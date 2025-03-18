@@ -1,0 +1,102 @@
+
+
+body {
+    background-color: #add8e6; /* Celeste suave */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido en la página */
+    align-items: center;
+    height: 100vh; /* Toma toda la altura de la ventana */
+    margin: 0; /* Elimina márgenes por defecto */
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Pinyon Script', cursive;
+    color: #0d47a1; /* Azul marino */
+}
+
+.contenedor {
+    background-color: white;
+    border: 3px solid #0d47a1; /* Azul oscuro */
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.entrada {
+    margin-bottom: 10px;
+}
+
+input {
+    width: calc(3 * 120px + 30px); /* Ajuste del ancho al total de los botones */
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #0d47a1;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background-color: #0d47a1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 120px; /* Tamaño uniforme de botones */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
+
+.lista-container {
+    background-color: white;
+    border: 3px solid #0d47a1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centra los elementos dentro del contenedor */
+    overflow-y: auto;
+    max-height: 300px; /* Limita la altura del contenedor */
+    margin-left: auto;
+    margin-right: auto; /* Centra el contenedor en la página */
+}
+
+#listaNombres {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+#listaNombres li {
+    background-color: white;
+    border: 1px solid #0d47a1;
+    margin: 5px;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.resultado {
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+    border: 2px solid red;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ffe6e6;
+    display: inline-block;
+}

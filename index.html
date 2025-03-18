@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selección Amigo Secreto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formato.css">
+</head>
+<body>
+    <h1>Selección Amigo Secreto</h1>
+    <div class="contenedor">
+        <div class="entrada">
+            <input type="text" id="nombreInput" placeholder="Ingrese un nombre">
+        </div>
+        <div class="botones">
+            <button id="agregarBtn">Agregar</button>
+            <button id="elegirBtn">Elegir Aleatorio</button>
+            <button id="reiniciarBtn">Reiniciar</button>
+        </div>
+    </div>
+    <div class="lista-container">
+        <h2>Nombres ingresados:</h2>
+        <ul id="listaNombres"></ul>
+    </div>
+    <div id="resultado" class="resultado"></div>
+    <script src="seleccionamigo.js"></script>
+</body>
+</html>
